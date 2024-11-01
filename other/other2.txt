@@ -1,1 +1,1 @@
-alert any 213.160.129.110 any -> any 1:65535 (msg:"Possible exploit"; content:"|90|";)
+RandomName001,alert any 213.160.129.110 any -> any 1:65535 (msg:"Possible exploit"; content:"|90|";),Snort,high,high,IPS,Random Comment
