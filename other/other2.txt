@@ -1,2 +1,1 @@
-213.160.129.110
-213.160.129.111
+alert any 213.160.129.110 any -> any 1:65535 (msg:"Possible exploit"; content:"|90|";)
